@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "npm install && node server/seed.cjs && cd client && npm install && npm run build",
-        "start:dev": "nodemon server",
-        "start": "node server/index.js"
+        "build": "npm install && node backend/seed.cjs && cd client && npm install && npm run build",
+        "start:dev": "nodemon backend",
+        "start": "node backend/index.js"
     },
     "keywords": [],
     "author": "",
