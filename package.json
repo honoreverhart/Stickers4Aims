@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "stickers4aims",
   "private": true,
   "version": "0.0.0",
@@ -24,4 +25,30 @@
     "globals": "^16.0.0",
     "vite": "^6.3.0"
   }
+=======
+    "name": "Stickers4Aims",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm install && node backend/seed.cjs && cd client && npm install && npm run build",
+        "start:dev": "nodemon backend",
+        "start": "node backend/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "pg": "^8.11.3",
+        "uuid": "^9.0.1"
+    }
+>>>>>>> master
 }
